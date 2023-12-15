@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SmokeSuite_2]">
+  <test thread-count="5" name="SmokeTest_2(failed)">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+        <exclude name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.CRM_Vtiger.ContactsModule.CreateContact">
+        <methods>
+          <include name="createContact_TC001"/>
+        </methods>
+      </class> <!-- com.CRM_Vtiger.ContactsModule.CreateContact -->
+    </classes>
+  </test> <!-- SmokeTest_2(failed) -->
+</suite> <!-- Failed suite [SmokeSuite_2] -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="SmokeSuite_2">
+	<groups>
+		<run>
+			<include name="Smoke"></include>
+		</run>
+	</groups>
+	<test name="SmokeTest_2">
+		<classes>
+			<class name="com.CRM_Vtiger.ContactsModule.CreateContact"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="9" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RegressionSuit_2" duration-ms="110490" started-at="2023-12-14T18:29:54 IST" finished-at="2023-12-14T18:31:45 IST">
+    <groups>
+      <group name="Regression">
+        <method signature="CreateContact.createContact_TC002()[pri:0, instance:com.CRM_Vtiger.ContactsModule.CreateContact@70e8f8e]" name="createContact_TC002" class="com.CRM_Vtiger.ContactsModule.CreateContact"/>
+        <method signature="CreateContact.createContact_TC003()[pri:0, instance:com.CRM_Vtiger.ContactsModule.CreateContact@4b0b0854]" name="createContact_TC003" class="com.CRM_Vtiger.ContactsModule.CreateContact"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="CreateContact.createContact_TC001()[pri:0, instance:com.CRM_Vtiger.ContactsModule.CreateContact@7880cdf3]" name="createContact_TC001" class="com.CRM_Vtiger.ContactsModule.CreateContact"/>
+        <method signature="CreateContact.createContact_TC002()[pri:0, instance:com.CRM_Vtiger.ContactsModule.CreateContact@70e8f8e]" name="createContact_TC002" class="com.CRM_Vtiger.ContactsModule.CreateContact"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="TestRunner-1" duration-ms="96025" started-at="2023-12-14T18:29:54 IST" finished-at="2023-12-14T18:31:30 IST">
+      <class name="com.CRM_Vtiger.ContactsModule.CreateContact">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.CRM_Vtiger.ContactsModule.CreateContact@7880cdf3]" name="configBC" is-config="true" duration-ms="12448" started-at="2023-12-14T18:29:54 IST" finished-at="2023-12-14T18:30:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.CRM_Vtiger.ContactsModule.CreateContact@7880cdf3]" name="configBM" is-config="true" duration-ms="24311" started-at="2023-12-14T18:30:07 IST" finished-at="2023-12-14T18:30:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createContact_TC001()[pri:0, instance:com.CRM_Vtiger.ContactsModule.CreateContact@7880cdf3]" name="createContact_TC001" duration-ms="51780" started-at="2023-12-14T18:30:32 IST" finished-at="2023-12-14T18:31:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact_TC001 -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.CRM_Vtiger.ContactsModule.CreateContact@7880cdf3]" name="configAM" is-config="true" duration-ms="5490" started-at="2023-12-14T18:31:24 IST" finished-at="2023-12-14T18:31:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.CRM_Vtiger.ContactsModule.CreateContact@7880cdf3]" name="configAC" is-config="true" duration-ms="1137" started-at="2023-12-14T18:31:29 IST" finished-at="2023-12-14T18:31:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.CRM_Vtiger.ContactsModule.CreateContact -->
+    </test> <!-- TestRunner-1 -->
+    <test name="TestRunner-2" duration-ms="102554" started-at="2023-12-14T18:29:54 IST" finished-at="2023-12-14T18:31:37 IST">
+      <class name="com.CRM_Vtiger.ContactsModule.CreateContact">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.CRM_Vtiger.ContactsModule.CreateContact@70e8f8e]" name="configBC" is-config="true" duration-ms="12448" started-at="2023-12-14T18:29:54 IST" finished-at="2023-12-14T18:30:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.CRM_Vtiger.ContactsModule.CreateContact@70e8f8e]" name="configBM" is-config="true" duration-ms="34302" started-at="2023-12-14T18:30:07 IST" finished-at="2023-12-14T18:30:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createContact_TC002()[pri:0, instance:com.CRM_Vtiger.ContactsModule.CreateContact@70e8f8e]" name="createContact_TC002" duration-ms="50070" started-at="2023-12-14T18:30:41 IST" finished-at="2023-12-14T18:31:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact_TC002 -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.CRM_Vtiger.ContactsModule.CreateContact@70e8f8e]" name="configAM" is-config="true" duration-ms="4446" started-at="2023-12-14T18:31:31 IST" finished-at="2023-12-14T18:31:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.CRM_Vtiger.ContactsModule.CreateContact@70e8f8e]" name="configAC" is-config="true" duration-ms="1077" started-at="2023-12-14T18:31:36 IST" finished-at="2023-12-14T18:31:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.CRM_Vtiger.ContactsModule.CreateContact -->
+    </test> <!-- TestRunner-2 -->
+    <test name="TestRunner-3" duration-ms="110490" started-at="2023-12-14T18:29:54 IST" finished-at="2023-12-14T18:31:45 IST">
+      <class name="com.CRM_Vtiger.ContactsModule.CreateContact">
+        <test-method status="PASS" signature="configBS()[pri:0, instance:com.CRM_Vtiger.ContactsModule.CreateContact@4b0b0854]" name="configBS" is-config="true" duration-ms="35" started-at="2023-12-14T18:29:54 IST" finished-at="2023-12-14T18:29:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.CRM_Vtiger.ContactsModule.CreateContact@4b0b0854]" name="configBC" is-config="true" duration-ms="12341" started-at="2023-12-14T18:29:54 IST" finished-at="2023-12-14T18:30:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.CRM_Vtiger.ContactsModule.CreateContact@4b0b0854]" name="configBM" is-config="true" duration-ms="36942" started-at="2023-12-14T18:30:07 IST" finished-at="2023-12-14T18:30:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createContact_TC003()[pri:0, instance:com.CRM_Vtiger.ContactsModule.CreateContact@4b0b0854]" name="createContact_TC003" duration-ms="57648" started-at="2023-12-14T18:30:44 IST" finished-at="2023-12-14T18:31:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact_TC003 -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.CRM_Vtiger.ContactsModule.CreateContact@4b0b0854]" name="configAM" is-config="true" duration-ms="2315" started-at="2023-12-14T18:31:41 IST" finished-at="2023-12-14T18:31:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.CRM_Vtiger.ContactsModule.CreateContact@4b0b0854]" name="configAC" is-config="true" duration-ms="1134" started-at="2023-12-14T18:31:44 IST" finished-at="2023-12-14T18:31:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method status="PASS" signature="configAS()[pri:0, instance:com.CRM_Vtiger.ContactsModule.CreateContact@4b0b0854]" name="configAS" is-config="true" duration-ms="2" started-at="2023-12-14T18:31:45 IST" finished-at="2023-12-14T18:31:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.CRM_Vtiger.ContactsModule.CreateContact -->
+    </test> <!-- TestRunner-3 -->
+  </suite> <!-- RegressionSuit_2 -->
+</testng-results>

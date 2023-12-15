@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="RegressionSuite_1">
+	<test name="RegressionTest_1">
+		<classes>
+			<class name="com.CRM_Vtiger.ContactsModule.CreateContact">
+				<methods>
+					<include name="createContact_TC003"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
